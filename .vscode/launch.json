@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run app.py (Streamlit)",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit",
+            "console": "integratedTerminal",
+            "args": [
+                "run",
+                "${workspaceFolder}/app.py"
+            ]
+        },
+        {
+            "name": "Run build_index.py (indexing)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_index.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
